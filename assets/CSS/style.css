@@ -1,0 +1,70 @@
+@import url(./reset.css);
+
+body{
+    background-color: #f9f9f9;
+}
+#search {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFF;
+    margin: 10px;
+}
+.search_img {
+    object-fit: none;
+}
+.search_box {
+    width: 500px;
+    height: 40px;
+}
+
+.block1{ 
+    display: flex;
+    margin-top: 20px;
+}
+
+#video_principal {
+    width: 990px;
+    height: 800px;
+    margin-left: 100px;
+}
+
+#Channel_info {
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+.channel_img {
+    object-fit: none;
+}
+h4 {
+    margin-bottom: 20px;
+}
+
+.sequencia {
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 1500px;
+    
+
+}
+.sqn_image {
+    object-fit: none;
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 1500px;
+    margin-left: 15px;
+}
+
+.desc_content{
+    flex-direction: column;
+    height: 89px;
+    width: 350px;
+}
